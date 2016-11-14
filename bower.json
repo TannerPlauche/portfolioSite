@@ -1,0 +1,8 @@
+{
+    "name": "portfolio",
+    "description": "portfolio for Coding Campus",
+    "dependencies": {
+        "bootstrap": "latest",
+        "font-awesome": "latest"
+    }
+}

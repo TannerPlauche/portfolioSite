@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tanner Plauché | Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fonts from Font Awsome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Magnific popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Color styles -->
+    <link rel="stylesheet" href="css/colors/blue.css">
+    <!--<link rel="stylesheet" href="css/colors/yellow.css">-->
+    <!--<link rel="stylesheet" href="css/colors/red.css">-->
+    <!--<link rel="stylesheet" href="css/colors/purple.css">-->
+    <!--<link rel="stylesheet" href="css/colors/orange.css">-->
+    <!--<link rel="stylesheet" href="css/colors/green.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Feature detection -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<!-- ========== **| BEGIN BODY |** ========== -->
+
+<body>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav" id="main-menu">
+                <li><a href="#page-welcome">Home</a></li>
+                <li><a href="#page-skills">Skills</a></li>
+                <li><a href="#page-experience">Resume</a></li>
+                <!--<li><a href="#page-portfolio">Portfolio</a></li>-->
+                <li><a href="#page-education">Education</a></li>
+                <li><a href="#page-profile">Me</a></li>
+                <li><a href="#page-contact">Contact</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+
+
+<!-- ========== **| WELCOME |** ========== -->
+
+<section id="page-welcome" class="page-welcome">
+    <div>
+        <!-- These are the arrows to control the slideshow, if I re-enable the slideshow in main.js
+      <ul class="slider-controls">
+          <li><a id="vegas-next" class="next" href="#"></a></li>
+          <li><a id="vegas-prev" class="prev" href="#"></a></li>
+      </ul>
+-->
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <header class="centered">
+                <h1 class='blurredText'>Tanner Plauché</h1>
+
+                <p class='blurredText'>Web Developer / Linguist</p>
+            </header>
+            <div class="social-icons">
+                <a href="https://github.com/tannerplauche" title="GitHub" class="btn btn-round btn-clear btn-github"
+                   target="_blank"><i
+                        class="fa fa-github"></i></a>
+                <a href="https://twitter.com/thephonetician" title="Twitter" class="btn btn-round btn-clear btn-twitter"
+                   target="_blank"><i
+                        class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/levplauche" title="Facebook"
+                   class="btn btn-round btn-clear btn-facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/tannerplauche" title="Instagram"
+                   class="btn btn-round btn-clear btn-instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/tannerplauche" title="Linkedin"
+                   class="btn btn-round btn-clear btn-linkedin" target="_blank"><i
+                        class="fa fa-linkedin-square"></i></a>
+                <!--<a href="https://www.google.com/" class="btn btn-round btn-clear btn-google"><i class="fa fa-google-plus"></i></a>-->
+
+            </div>
+            <!--<a href="#page-portfolio" class="btn btn-default hire-me">See My Portfolio</a>-->
+        </div>
+    </div>
+</section>
+<!-- welcome ends -->
+
+
+<!-- ========== **| SKILLS |** ========== -->
+
+<section id="page-skills" class="page-skills">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title"><span>Skills</span></h2>
+
+            <div class="spacer"></div>
+
+            <p style="margin-top: 15px;">
+                <a class="anchorButton" id="showLanguageAbilities" data-transition="slide" role="button"
+                   onclick="displayLanguageAbilities()"
+                   style="text-decoration: none">Language Abilities</a> /
+                <a class="anchorButton" id="showTechnicalAbilities" role="button" onclick="displayTechnicalAbilities()"
+                   style="text-decoration: none">Technical Abilities</a>
+            </p>
+        </header>
+
+        <div id="languageAbilities" data-role="page">
+            <h4 class="section-subtitle">Languages I speak.</h4>
+            <div class="spacerGray"></div>
+            <div class="row">
+
+                <!--Czech-->
+                <div class="col-md-4">
+                    <img src="img/czechFlag.png" class="skill-set img-responsive">
+
+                    <h3>Czech</h3>
+                </div>
+
+                <!--Slovak-->
+                <div class="col-md-4">
+                    <img src="img/slovakFlag.gif" class="skill-set img-responsive">
+
+                    <h3>Slovak</h3>
+                </div>
+
+                <!--Russian-->
+                <div class="col-md-4">
+                    <img src="img/russianFlag.jpg" class="skill-set img-responsive">
+
+                    <h3>Russian</h3>
+                </div>
+            </div>
+            <div class="row">
+
+                <!--French-->
+                <div class="col-md-4">
+                    <img src="img/frenchFlag.png" class="skill-set img-responsive">
+
+                    <h3>French</h3>
+                </div>
+
+                <!--Spanish-->
+                <div class="col-md-4">
+                    <img src="img/spainFlag.png" class="skill-set img-responsive">
+
+                    <h3>Spanish</h3>
+                </div>
+
+                <!--English-->
+                <div class="col-md-4">
+                    <img src="img/americanBritishFlag.png" class="skill-set img-responsive">
+
+                    <h3>English</h3>
+                </div>
+
+            </div>
+        </div>
+        <div id="technicalAbilities" data-role="page">
+            <h4 class="section-subtitle">Technologies I use</h4>
+            <div class="spacerGray"></div>
+            <div class="row">
+                <!--HTML 5-->
+                <div class="col-md-3">
+                    <img src="img/html5-logo.png" class="skill-set img-responsive">
+
+                    <h3>HTML 5</h3>
+                </div>
+
+                <!--CSS 3-->
+                <div class="col-md-3">
+                    <img src="img/css3-logo.png" class="skill-set img-responsive">
+
+                    <h3>CSS 3</h3>
+                </div>
+
+                <!--JavaScript-->
+                <div class="col-md-3">
+                    <img src="img/javascript-logo.png" class="skill-set img-responsive">
+
+                    <h3>JavaScript</h3>
+                </div>
+
+                <!--Python-->
+                <div class="col-md-3">
+                    <img src="img/python-logo.png" class="skill-set img-responsive">
+
+                    <h3>Python</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--AngularJS-->
+                <div class="col-md-3">
+                    <img src="img/angularjs-logo.png" class="skill-set img-responsive">
+
+                    <h3>AngularJS</h3>
+                </div>
+
+
+                <!--Express-->
+                <div class="col-md-3">
+                    <img src="img/express4.png" class="skill-set img-responsive">
+
+                    <h3>Express</h3>
+                </div>
+
+                <!--Sails-->
+                <div class="col-md-3">
+                    <img src="img/sails.png" class="skill-set img-responsive">
+
+                    <h3>Sails</h3>
+                </div>
+
+                <!--Mongo-->
+                <div class="col-md-3">
+                    <img src="img/mongoDB.png" class="skill-set img-responsive">
+
+                    <h3>MongoDB</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--React-->
+                <div class="col-md-3">
+                    <img src="img/reactLogo.jpg" class="skill-set img-responsive">
+
+                    <h3>ReactJS</h3>
+                </div>
+
+
+                <!--Redux-->
+                <div class="col-md-3">
+                    <img src="img/reduxLogo.png" class="skill-set img-responsive">
+
+                    <h3>Redux</h3>
+                </div>
+
+                <!--Mobx-->
+                <div class="col-md-3">
+                    <img src="img/mobxLogo.png" class="skill-set img-responsive">
+
+                    <h3>MobX</h3>
+                </div>
+
+                <!--NginX-->
+                <div class="col-md-3">
+                    <img src="img/NGINXLogo.jpg" class="skill-set img-responsive">
+
+                    <h3>NginX</h3>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                <!--React Native-->
+                <div class="col-md-4" style="padding-top: 50px">
+                    <img src="img/reactNativeLogo.png">
+
+                    <h3>React-Native</h3>
+                </div>
+
+                <!--Git-->
+                <div class="col-md-4">
+                    <img src="img/git-logo.png" class="skill-set img-responsive">
+
+                    <h3>Git</h3>
+                </div>
+
+                <!--Node.js-->
+                <div class="col-md-4">
+                    <img src="img/nodejs_logo.jpg" class="skill-set img-responsive">
+
+                    <h3>Node.js</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- skills ends -->
+
+<!-- ========== **| EXPERIENCE |** ========== -->
+
+<section id="page-experience" class="page-experience">
+    <div id="experience-container" class="container">
+        <header class="section-header">
+            <h2 class="section-title"><span>Resumé</span></h2>
+
+            <div class="spacer"></div>
+            <p class="section-subtitle">Some of my experience and work.</p>
+        </header>
+
+        <!--Top Fit Pros-->
+        <div class="row">
+            <div class="col-md-6">
+                <article class="experience">
+                    <header>
+                        <img src="img/topFitPros.jpg">
+
+                        <h3>TopFitPros</h3>
+
+                        <p>Web Developer<span class="pipe">|</span> Provo, UT (Remote)
+                            <span class="pipe">|</span> February '16 - Present</p>
+                    </header>
+                    <ul>
+                        <li>Migrated a PHP backend in Drupal7 to SailsJS and create new RESTful APIs. Create new
+                            features
+                            and improve user experience using AngularJS.
+                        </li>
+                        <li>Assist in troubleshooting optimization methods and algorithms.</li>
+                        <!--<li>Connected with bloggers and influencers in different fields to publish client's content
+        and help their SEO rankings.</li>-->
+                    </ul>
+                </article>
+            </div>
+
+            <!--Coding Campus-->
+            <div class="row">
+                <div class="col-md-6">
+                    <article class="experience">
+                        <header>
+                            <img src="img/coding-campus-logo-small.png">
+
+                            <h3>Coding Campus</h3>
+
+                            <p>Instructor <span class="pipe">|</span> Provo, UT, Beirut, Leb.
+                                <span class="pipe">|</span> February '16 - Present</p>
+                        </header>
+                        <ul>
+                            <li>Create new curriculum for teaching ReactJS and MobX</li>
+                            <li>Facilitate the learning of Coding Campus students by providing well-organized lessons,
+                                study resources, and individualized help
+                            </li>
+                            <li>Mentor students outside of class to help ensure that they understand concepts, matirial,
+                                and assignments.
+                            </li>
+                            <!--<li>Connected with bloggers and influencers in different fields to publish client's content
+      and help their SEO rankings.</li>-->
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <!--CompleteSpeech-->
+            <div class="row">
+                <div class="col-md-6">
+                    <article class="experience">
+                        <header>
+                            <img src="img/completeSpeechLogo.png" style="padding: 10px;">
+
+                            <h3>CompleteSpeech</h3>
+
+                            <p>Web and Mobile App Developer <span class="pipe">|</span> Orem, UT <span
+                                    class="pipe">|</span> Dec '12 - February '16</p>
+                        </header>
+                        <ul>
+                            <li>Published visual feedback apps for mobile and web platforms.</li>
+                            <li>Created new methods of phoneme-specific speech recognition algorithms.</li>
+                            <li>Developed new methods of phonetic analysis with electropalatography tools.</li>
+                            <li>Wrote training and support materials for apps and software</li>
+                        </ul>
+                    </article>
+                </div>
+                <!--Avant Assessment-->
+                <div class="col-md-6">
+                    <article class="experience">
+                        <header>
+                            <img src="img/avantlogo.jpg">
+
+                            <h3>Avant Assessment</h3>
+
+                            <p>Item Writer / QA Tester <span class="pipe">|</span> New York, NY <span
+                                    class="pipe">|</span> Nov' 11 - Nov '12
+                            </p>
+                        </header>
+                        <ul>
+                            <li>Created language assessment tests for the U.S. military and government agencies.</li>
+                            <li>Improved glossing methods to improve quality control.</li>
+                            <li>Performed quality control on assessment materials and resources.</li>
+                            <li>Was an active participant in completing the most successful contract in the history of
+                                the company.
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <!--Western Standard-->
+            <div class="row">
+                <div class="col-md-6">
+                    <article class="experience">
+                        <header>
+                            <img src="img/wsLogo.png" style="padding: 10px;">
+
+                            <h3>Western Standard Translation</h3>
+
+                            <p>Czech & Slovak Translator // Slavic Languages Specialist <span class="pipe">|</span>
+                                Provo, UT <span class="pipe">|</span> April '09 - Nov '11</p>
+                        </header>
+                        <ul>
+                            <li>Translated text between Czech, Slovak, Russian, and English
+                            </li>
+                            <li>Optimized translation software algorithms for Czech, Slovak, and Russian analysis and
+                                parsing.
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- experience ends -->
+
+
+<!-- ========== **| EDUCATION |** ========== -->
+
+<section id="page-education" class="page-education">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title"><span>Education</span></h2>
+
+            <div class="spacer"></div>
+            <p class="section-subtitle">I've been taught a thing or two along the way.</p>
+        </header>
+        <div class="row">
+            <div class="col-md-6">
+                <article class="education">
+                    <header>
+                        <img src="img/gsuLogo.jpg">
+
+                        <h3>Georgia State University</h3>
+
+                        <p>MA. Computational Linguistics – <strong> </strong>Dec 21, 2011</p>
+                    </header>
+                    <p>I studied phonetics and phonological system analysis, corpus and computational linguistics, as well as
+                        langauge acquistion. I attended Georgia State with the intention to focus on computational
+                        approaches to language analysis, but ultimately emphasized in phonetics. I left Georgia State
+                        before completing my masters degree and do not currently have plans to complete the degree;
+                        though, I am continually involved in advancing the field of phonetics, computational speech and
+                        language analysis, and linguistics.</p>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="education">
+                    <header>
+                        <img src="img/byu-logo.jpg">
+
+                        <h3>Brigham Young University</h3>
+
+                        <p>BA, Lingustics | Czech and French language Minors – <strong></strong>Aug 2011
+                        </p>
+                    </header>
+                    <p>The Brigham Young University Linguistics Department is the largest in the United States and is a
+                        leader in corpus and phonological linguistics. My coursework involved a wide range of core
+                        linguistics classes, though I spent a good deal of extra time participating in natural language
+                        processing, phonetic, and morphological research. </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- education ends -->
+
+
+<!-- ========== **| ME |** ========== -->
+
+<section id="page-profile" class="page-profile">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title">More about me</h2>
+
+            <div class="spacer"></div>
+            <p class="section-subtitle">"Ramid'o vis mixtu pal'ma, vis'visadoqvin vias quopuer to." Dyesh Henge</p>
+        </header>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="profile"><img src="img/TannerCanoe.jpg" alt="profile"/></div>
+            </div>
+            <div class="col-md-9">
+                <p>I have a wonderful (on all days) wife and three great (on most days) kids. I love:</p>
+                (in no particular order)
+                <div>
+                    <table>
+                        <tr>
+                            <td>
+                                • Languages
+                            </td>
+                            <td>
+                                • Biking
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                • Programming
+                            </td>
+                            <td>
+                                • Javascript
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                • Kayaking
+                            </td>
+                            <td>
+                                • Weightlifting
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                • Reading
+                            </td>
+                            <td>
+                                • Playing violin and viola
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                • Helping and serving people
+                            </td>
+                            <td>
+                                • The South
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                • Classical music
+                            </td>
+                            <td>
+                                • Fetty Wap and 90's grunge
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <p>I am linguist and web developer. I am responsible for a few biofeedback mobile apps and for helping
+                    some people learn how to pronounce new sounds. I am a phonetician and am keenly interested in speech
+                    technologies. I am a leading expert in electropalatography and have
+                    helped simplify the learning curve to help speech therapists and parents do better articulation
+                    therapy. I do speak a few languages, but I like to think that keep an academic interest in language
+                    diversity and that I am not just a language enthusiast that tries to learn any language I come
+                    across...but it's not true. I just like learning languages.</p>
+
+                <p>I'm continually working to improve my software and web development skills. I primarily develop for the web
+                    to create and consume RESTful apis. I have worked on native mobile platforms, but now use React-Native and Ionic to create mobile apps.
+                    I find socket-based databases and three-way data binding exciting. I love the ubiquity and
+                    ever improving functionality of JavaScript. I have used other languages as needed, including
+                    Objective-C, Swift, Python, and C++.</p>
+
+                <p></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- profile ends -->
+
+
+<!-- ========== **| CONTACT |** ========== -->
+
+<section id="page-contact" class="page-contact">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title"><span>Contact</span></h2>
+        </header>
+        <div class="row">
+            <div class="col-md-12 contact-info">
+                <p><i class="fa fa-phone"></i> (720) 222-1037</p>
+
+                <p>
+                    <a href="mailto:me@tannerplauche.com"><i class="fa fa-envelope-o"></i>me@tannerplauche.com</a>
+                </p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/intent/tweet?screen_name=thephonetician"
+                       class="btn btn-round btn-clear btn-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/levplauche" class="btn btn-round btn-clear btn-facebook"
+                       target="_blank"><i
+                            class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/tannerplauche" class="btn btn-round btn-clear btn-instagram"
+                       target="_blank"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tannerplauche" class="btn btn-round btn-clear btn-linkedin"
+                       target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <!--<a href="https://www.google.com/" class="btn btn-round btn-clear btn-google"><i class="fa fa-google-plus"></i></a>-->
+                </div>
+            </div>
+        </div>
+        <!-- End row -->
+
+    </div>
+</section>
+<!-- contact ends -->
+<div>
+    <a href="" download>Resumé Download</a>
+</div>
+<!-- ========== **| SCRIPTS |** ========== -->
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.easypiechart.min.js"></script>
+<script src="js/jquery.vegas.min.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/main.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</body>
+
+</html>
