@@ -124,3 +124,7 @@ table tr td {
 .ui-loader {
     display: none;
 }
+
+.justify {
+    text-align: justify;
+}
