@@ -85,9 +85,9 @@ $(document).ready(function () {
       }
     });
   }, {
-    triggerOnce: true,
-    offset: 'bottom-in-view'
-  });
+      triggerOnce: true,
+      offset: 'bottom-in-view'
+    });
 
 
   /* VEGAS Home Slider */
@@ -160,4 +160,4 @@ function displayLanguageAbilities() {
   document.getElementById("languageAbilities").style.display = "inherit";
 }
 
-displayTechnicalAbilities();
+// displayTechnicalAbilities();

@@ -43,6 +43,11 @@ a:hover {
 .page-experience img {
     max-height: 150px;
     /*box-shadow: 5px 5px 10px #aaa;*/
+    min-height: 65px;
+}
+
+@media (max-width: 12450px) {
+    ...
 }
 
 .page-education img {
