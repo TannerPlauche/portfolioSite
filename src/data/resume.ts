@@ -1,0 +1,181 @@
+export const personal = {
+  name: "J. Tanner Plauché",
+  title: "Senior Software Developer",
+  tagline: "Full-Stack Engineer · Polyglot · Problem Solver",
+  email: "tannerplauche@gmail.com",
+  phone: "(720) 222-1037",
+  website: "www.tannerplauche.com",
+  github: "https://github.com/tannerplauche",
+  linkedin: "https://www.linkedin.com/in/tannerplauche",
+  location: "Nashville, TN",
+};
+
+export const skills = {
+  languages: [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "C#",
+    "Java",
+    "Dart",
+    "Swift",
+    "Go",
+    "Kotlin",
+    "Elixir",
+    "HTML5",
+    "CSS3 / SCSS",
+  ],
+  frameworks: [
+    "React",
+    "Next.js",
+    "Angular",
+    "AngularJS",
+    "Vue",
+    "React Native",
+    "Flutter",
+    "Express",
+    "NestJS",
+    "Django",
+    "Flask",
+    ".NET",
+    "Spring",
+    "Serverless",
+  ],
+  databases: ["PostgreSQL", "MongoDB", "MySQL", "MariaDB", "CouchDB"],
+  tools: [
+    "Node.js",
+    "AWS Lambda",
+    "Azure Functions",
+    "Google Cloud",
+    "DigitalOcean",
+    "Docker",
+    "Nginx",
+    "Git",
+    "GitHub",
+    "Jira",
+    "Webpack",
+    "Agile / Scrum",
+  ],
+};
+
+export const spokenLanguages = [
+  { name: "English", level: "Native" },
+  { name: "Czech", level: "Fluent" },
+  { name: "Russian", level: "Fluent" },
+  { name: "Slovak", level: "Fluent" },
+  { name: "French", level: "Fluent" },
+  { name: "Spanish", level: "Proficient" },
+  { name: "Polish", level: "Conversational" },
+  { name: "Sango", level: "Proficient" },
+];
+
+export const experience = [
+  {
+    company: "Dev Net Tech",
+    role: "Senior Software Developer",
+    location: "Nashville, TN",
+    start: "Aug 2025",
+    end: "Present",
+    bullets: [
+      "Led development of a full-featured endodontist office management platform",
+      "Built REST APIs using C# with Azure Functions and .NET",
+      "Built and maintained a React-based frontend with reusable components, state management, and responsive UI",
+      "Designed and implemented backend micro-services in Python for business logic, data processing, and system integrations",
+      "Designed database schemas and optimized queries to support high-volume patient and practice data",
+      "Collaborated with clinicians to translate real-world clinical workflows into scalable software",
+    ],
+    tech: ["React", "C#", ".NET", "Azure", "Python"],
+  },
+  {
+    company: "Softrams",
+    role: "Senior Software Developer",
+    location: "Nashville, TN",
+    start: "Aug 2023",
+    end: "Aug 2025",
+    bullets: [
+      "Developed features for health insurance management software",
+      "Wrote database migrations for data normalization",
+      "Created API endpoints for client integrations",
+    ],
+    tech: ["TypeScript", "React", "PostgreSQL"],
+  },
+  {
+    company: "DiversyFund",
+    role: "Senior Software Developer & Russian Language Manager",
+    location: "Nashville, TN",
+    start: "May 2020",
+    end: "Aug 2023",
+    bullets: [
+      "Migrated client applications from server-side-rendered templates to single-page React app",
+      "Built cross-platform mobile applications for Android and iOS with React Native",
+      "Migrated backend from JavaScript to TypeScript",
+      "Created a Serverless platform for data and investment processing",
+      "Integrated APIs with third-party financial and security services",
+    ],
+    tech: ["React", "React Native", "TypeScript", "Serverless", "AWS"],
+  },
+  {
+    company: "ClarisHealth",
+    role: "Senior Web Developer",
+    location: "Nashville, TN",
+    start: "Oct 2018",
+    end: "May 2020",
+    bullets: [
+      "Created a streamlined medical claim delivery system for medical-financial auditing",
+      "Built cloud-based API and data-processing ecosystem in AWS Lambda",
+      "Integrated with third-party and client APIs for medical claims and authentication",
+      "Created custom internal Single-Sign-On tooling for clients",
+      "Rewrote existing applications in TypeScript, Angular, Node, Express, NestJS, and Python",
+    ],
+    tech: ["Angular", "TypeScript", "NestJS", "AWS Lambda", "Python"],
+  },
+  {
+    company: "Deloitte",
+    role: "Web Developer Consultant",
+    location: "Nashville, TN",
+    start: "Jan 2018",
+    end: "Oct 2018",
+    bullets: [
+      "Designed and built an internal messaging system connecting multiple internal applications",
+      "Created and implemented APIs between disconnected internal tools in C# and .NET",
+      "Developed full-stack web applications using Angular, React, Node, and Express",
+    ],
+    tech: ["Angular", "React", "C#", ".NET", "Node.js"],
+  },
+  {
+    company: "The Iron Yard & V School",
+    role: "JavaScript Instructor",
+    location: "Nashville, TN / Provo, UT",
+    start: "Feb 2016",
+    end: "Oct 2017",
+    bullets: [
+      "Taught full-stack web development with the MERN stack",
+      "Instructed introductory web development and the MEAN stack",
+    ],
+    tech: ["React", "Node.js", "MongoDB", "Express"],
+  },
+];
+
+export const volunteering = [
+  {
+    org: "Nashville International Center for Empowerment",
+    role: "French, Russian, Spanish, Sango Interpreter",
+    period: "2022 – Present",
+    description:
+      "Interpret for refugees and immigrants recently arriving in the United States.",
+  },
+  {
+    org: "Church of Jesus Christ of Latter Day Saints",
+    role: "English Language Instructor",
+    period: "2019 – 2021",
+    description: "Taught free English classes in Spanish, French, and Sango.",
+  },
+];
+
+export const education = [
+  {
+    school: "Brigham Young University",
+    degree: "Linguistics — Russian & Czech Emphases, Minor: French",
+    period: "2007 – 2009",
+  },
+];
