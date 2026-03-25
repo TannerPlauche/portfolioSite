@@ -48,7 +48,7 @@ export default function Hero() {
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(124,106,247,${p.alpha})`;
+        ctx.fillStyle = `rgba(224,48,48,${p.alpha})`;
         ctx.fill();
       });
 
@@ -62,7 +62,7 @@ export default function Hero() {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(124,106,247,${0.08 * (1 - dist / 120)})`;
+            ctx.strokeStyle = `rgba(224,48,48,${0.08 * (1 - dist / 120)})`;
             ctx.lineWidth = 0.5;
             ctx.stroke();
           }
@@ -119,7 +119,7 @@ export default function Hero() {
           height: 600,
           borderRadius: "50%",
           background:
-            "radial-gradient(circle, rgba(124,106,247,0.12) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(224,48,48,0.12) 0%, transparent 70%)",
           pointerEvents: "none",
         }}
       />

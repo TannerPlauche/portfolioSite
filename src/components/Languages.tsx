@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { spokenLanguages, volunteering, education } from "@/data/resume";
 
 const levelColor: Record<string, string> = {
-  Native: "#7c6af7",
+  Native: "#e03030",
   Fluent: "#60d394",
   Proficient: "#ffd166",
   Conversational: "#ef8c4b",
