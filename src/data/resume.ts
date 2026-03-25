@@ -174,6 +174,11 @@ export const volunteering = [
 
 export const education = [
   {
+    school: "Georgia State University",
+    degree: "MA in Applied Linguistics — Phonetics & Computational Linguistics",
+    period: "2011 – 2013",
+  },
+  {
     school: "Brigham Young University",
     degree: "Linguistics — Russian & Czech Emphases, Minor: French",
     period: "2007 – 2009",
