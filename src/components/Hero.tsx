@@ -181,7 +181,7 @@ export default function Hero() {
             marginBottom: 48,
           }}
         >
-          Full-Stack Engineer · Polyglot in 8 Languages · 10+ Years Experience
+          Full-Stack Engineer · 14+ Years Experience · Polyglot in 8 Languages
         </p>
 
         <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
