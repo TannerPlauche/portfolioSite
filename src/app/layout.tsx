@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "J. Tanner Plauché — Senior Software Developer",
+  title: "Tanner Plauché — Senior Software Developer",
   description:
     "Full-Stack Engineer and polyglot fluent in 8 languages. 10+ years building web, mobile, and cloud applications across healthcare, fintech, and enterprise.",
   keywords: [

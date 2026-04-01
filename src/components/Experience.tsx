@@ -150,7 +150,7 @@ export default function Experience() {
                     fontSize: 12,
                     color: "var(--accent-light)",
                     background: "var(--accent-glow)",
-                    border: "1px solid rgba(224,48,48,0.25)",
+                    border: "1px solid rgba(236,72,153,0.25)",
                     borderRadius: 100,
                     letterSpacing: "0.03em",
                     fontWeight: 500,

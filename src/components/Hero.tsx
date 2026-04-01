@@ -24,14 +24,14 @@ export default function Hero() {
       alpha: number;
     }[] = [];
 
-    for (let i = 0; i < 60; i++) {
+    for (let i = 0; i < 300; i++) {
       particles.push({
         x: Math.random() * width,
         y: Math.random() * height,
         vx: (Math.random() - 0.5) * 0.3,
         vy: (Math.random() - 0.5) * 0.3,
         r: Math.random() * 1.5 + 0.5,
-        alpha: Math.random() * 0.5 + 0.1,
+        alpha: Math.random() * 0.6 + 0.4,
       });
     }
 
@@ -48,7 +48,7 @@ export default function Hero() {
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(224,48,48,${p.alpha})`;
+        ctx.fillStyle = `rgba(236,72,153,${p.alpha})`;
         ctx.fill();
       });
 
@@ -62,7 +62,7 @@ export default function Hero() {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(224,48,48,${0.08 * (1 - dist / 120)})`;
+            ctx.strokeStyle = `rgba(236,72,153,${0.08 * (1 - dist / 120)})`;
             ctx.lineWidth = 0.5;
             ctx.stroke();
           }
@@ -119,7 +119,7 @@ export default function Hero() {
           height: 600,
           borderRadius: "50%",
           background:
-            "radial-gradient(circle, rgba(224,48,48,0.12) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(236,72,153,0.12) 0%, transparent 70%)",
           pointerEvents: "none",
         }}
       />
@@ -133,36 +133,23 @@ export default function Hero() {
           maxWidth: 800,
         }}
       >
-        <p
-          style={{
-            fontSize: 13,
-            letterSpacing: "0.2em",
-            color: "var(--accent-light)",
-            textTransform: "uppercase",
-            marginBottom: 20,
-            fontWeight: 500,
-          }}
-        >
-          Based in Nashville, TN
-        </p>
 
         <h1
+          id="name"
           style={{
             fontSize: "clamp(48px, 8vw, 88px)",
             fontWeight: 800,
             lineHeight: 1.05,
             letterSpacing: "-0.03em",
             marginBottom: 24,
-            background: "linear-gradient(135deg, #fff 0%, var(--accent-light) 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
+            color: "#fce7f3",
           }}
         >
           {personal.name}
         </h1>
 
         <p
+          id="title"
           style={{
             fontSize: "clamp(18px, 2.5vw, 24px)",
             color: "var(--muted)",
@@ -172,7 +159,18 @@ export default function Hero() {
         >
           {personal.title}
         </p>
-
+        <p
+          style={{
+            fontSize: 13,
+            letterSpacing: "0.2em",
+            color: "var(--muted)",
+            textTransform: "uppercase",
+            marginBottom: 20,
+            fontWeight: 500,
+          }}
+        >
+          Based in Nashville, TN
+        </p>
         <p
           style={{
             fontSize: 15,

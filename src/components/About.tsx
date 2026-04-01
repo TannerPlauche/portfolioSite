@@ -75,6 +75,14 @@ export default function About() {
               I thrive at the intersection of clean architecture and intuitive user experience.
             </p>
             <p style={{ fontSize: 17, color: "var(--muted)", lineHeight: 1.8 }}>
+              My work spans the full delivery stack — from responsive web apps and cross-platform
+              mobile experiences to desktop applications and scalable cloud infrastructure on AWS, GCP,
+              and Azure. Whether it&apos;s an Angular frontend, a React Native mobile app, a .NET
+              desktop tool, or a serverless backend, I&apos;ve shipped it. Increasingly, that also
+              means building and integrating AI — designing LLM-powered features, wiring up Claude
+              and OpenAI APIs, and shipping intelligent automation into production systems.
+            </p>
+            <p style={{ fontSize: 17, color: "var(--muted)", lineHeight: 1.8 }}>
               What sets me apart is a rare combination: deep technical expertise paired with
               fluency in 8 spoken languages — Czech, Russian, Slovak, French, Spanish, Polish,
               Sango, and English. This gives me a unique ability to bridge communication gaps
